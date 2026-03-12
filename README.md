@@ -41,17 +41,18 @@ O QAOA é um algoritmo **híbrido quântico-clássico** que:
 
 O projeto está organizado no arquivo `QAOA_ProblemaDaMochila.ipynb` seguindo o fluxo lógico abaixo:
 
-└── QAOA_ProblemaDaMochila.ipynb
-    ├── 1. Definição do problema no formato QUBO
-    │   └── Conversão do Problema da Mochila para QUBO
-    │       ├── h → Coeficientes diagonais (pesos/valores individuais)
-    │       └── J → Coeficientes de interação (restrições de capacidade)
-    ├── 2. Circuito QAOA
-    │   ├── Operador de Custo Uc(γ)
-    │   ├── Operador de Mistura Um(β)
-    │   └── Otimização de parâmetros via Gradiente Descendente
-    ├── 3. Medição e Resultado
-    │   └── Análise da distribuição de probabilidades dos estados quânticos
-    └── 4. Validação
-        └── Comparação da solução quântica com a solução ótima (Brute Force)
+```text
+QAOA_ProblemaDaMochila.ipynb
+├── 1. Definição do problema no formato QUBO
+│   └── Conversão do Problema da Mochila para QUBO
+│       ├── h → Coeficientes diagonais (pesos/valores individuais)
+│       └── J → Coeficientes de interação (restrições de capacidade)
+├── 2. Circuito QAOA
+│   ├── Operador de Custo Uc(γ)
+│   ├── Operador de Mistura Um(β)
+│   └── Otimização de parâmetros via Gradiente Descendente
+├── 3. Medição e Resultado
+│   └── Análise da distribuição de probabilidades dos estados quânticos
+└── 4. Validação
+    └── Comparação da solução quântica com a solução ótima (Brute Force)
 
